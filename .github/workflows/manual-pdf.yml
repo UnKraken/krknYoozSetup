@@ -23,5 +23,5 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: manual-instalacion-pdf
-          path: dist/manual-instalacion.pdf
+          path: dist/Manual_de_instalacion_Yooz2SageNG_v1.2.pdf
           if-no-files-found: error
