@@ -32,8 +32,8 @@ class ManualParser(HTMLParser):
     def select(self, name): return self.pages
 
 parser = argparse.ArgumentParser(description=__doc__)
-parser.add_argument('--input', type=Path, default=Path(__file__).resolve().parents[1] / 'docs/manual-instalacion-editable.html')
-parser.add_argument('--output', type=Path, default=Path('dist/manual-instalacion.pdf'))
+parser.add_argument('--input', type=Path, default=Path(__file__).resolve().parents[1] / 'docs/Manual_de_instalacion_Yooz2SageNG_v1.2.html')
+parser.add_argument('--output', type=Path, default=Path('dist/Manual_de_instalacion_Yooz2SageNG_v1.2.pdf'))
 args = parser.parse_args()
 source=args.input.read_text(encoding='utf-8')
 soup=ManualParser(source)
