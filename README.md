@@ -1,6 +1,6 @@
 # Manual de instalación Yooz 2 Sage 200
 
-Manual editable basado en el PDF original y actualizado para instalar Yooz2SageNG en la carpeta compartida de Sage 200. La revisión tiene 12 páginas y conserva los colores y las cabeceras del original. Incluye el nuevo instalador y las instrucciones con capturas para obtener el ID de aplicación de Yooz. Se han retirado los requisitos de Java y los apartados de descarga e instalación del agente de Yooz. El instalador previsto es `Yooz2SageNGInstaller.exe`; todavía no se ha incorporado su ejecutable al repositorio.
+Manual editable basado en el PDF original y actualizado para instalar Yooz2SageNG en la carpeta compartida de Sage 200. La revisión tiene 11 páginas y conserva los colores y las cabeceras del original. Incluye el nuevo instalador, las instrucciones con capturas para obtener el ID de aplicación de Yooz, los cálculos `krknSage2Yooz` y `krknYooz2Sage` mediante `Shell`, y la selección de datos en `SageExport.Objects` dentro de `appsettings.json`. Se han retirado los requisitos de Java y los apartados de descarga e instalación del agente de Yooz. El instalador previsto es `Yooz2SageNGInstaller.exe`; todavía no se ha incorporado su ejecutable al repositorio.
 
 ## Abrir y editar
 
