@@ -1,10 +1,10 @@
-# Manual de instalación Yooz 2 Sage 200
+# Manual de instalación Yooz2SageNG v1.2
 
-Manual editable basado en el PDF original y actualizado para instalar Yooz2SageNG en la carpeta compartida de Sage 200. La revisión tiene 11 páginas y conserva los colores y las cabeceras del original. Incluye el nuevo instalador, las instrucciones con capturas para obtener el ID de aplicación de Yooz, los cálculos `krknSage2Yooz` y `krknYooz2Sage` mediante `Shell`, y la selección de datos en `SageExport.Objects` dentro de `appsettings.json`. Se han retirado los requisitos de Java y los apartados de descarga e instalación del agente de Yooz. El instalador previsto es `Yooz2SageNGInstaller.exe`; todavía no se ha incorporado su ejecutable al repositorio.
+Versión editable reconstruida a partir del PDF facilitado. Conserva el idioma, el contenido técnico, las 13 páginas, las capturas, los colores, las cabeceras y la distribución del original. No se ha actualizado todavía la información técnica ni el número de versión impreso.
 
 ## Abrir y editar
 
-1. Descarga `docs/manual-instalacion-editable.html` y ábrelo con Chrome, Edge o Firefox.
+1. Descarga `docs/Manual_de_instalacion_Yooz2SageNG_v1.2.html` y ábrelo con Chrome, Edge o Firefox.
 2. Haz clic sobre el texto que quieras cambiar.
 3. Pulsa **Guardar cambios** para descargar el HTML actualizado. El navegador no modifica el archivo original ni lo sube a GitHub.
 4. Sustituye el archivo del repositorio por el HTML actualizado para conservar la revisión.
@@ -24,7 +24,7 @@ python -m pip install -r requirements.txt
 python scripts/generar_pdf.py
 ```
 
-El resultado se guarda en `dist/manual-instalacion.pdf`.
+El resultado se guarda en `dist/Manual_de_instalacion_Yooz2SageNG_v1.2.pdf`.
 
 El generador usa el HTML como única fuente del texto. No necesita el PDF original ni un navegador. Conserva las imágenes, las fuentes incrustadas y los enlaces del original.
 
@@ -32,7 +32,7 @@ También está disponible el flujo **Generar PDF del manual** en la pestaña Act
 
 ## Archivos
 
-- `docs/manual-instalacion-editable.html`: documento fuente editable y autónomo.
+- `docs/Manual_de_instalacion_Yooz2SageNG_v1.2.html`: documento fuente editable y autónomo.
 - `scripts/generar_pdf.py`: generador de PDF.
 - `requirements.txt`: dependencia del generador.
 - `.github/workflows/manual-pdf.yml`: generación del PDF en GitHub Actions.
