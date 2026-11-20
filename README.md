@@ -1,6 +1,13 @@
 # Manual de instalación Yooz2SageNG v1.2
 
-Versión editable reconstruida a partir del PDF facilitado. Conserva el idioma, el contenido técnico, las 13 páginas, las capturas, los colores, las cabeceras y la distribución del original. No se ha actualizado todavía la información técnica ni el número de versión impreso.
+Manual de instalación de Yooz2SageNG v1.2, con 10 páginas y fuente editable.
+
+## Descargas
+
+- [Manual en PDF](docs/Manual_de_instalacion_Yooz2SageNG_v1.2.pdf).
+- [Release v1.2 e instalador Yooz2SageNGInstaller.exe](https://github.com/UnKraken/krknYoozSetup/releases/tag/v1.2).
+
+El repositorio es privado; es necesario iniciar sesión con un usuario autorizado.
 
 ## Abrir y editar
 
